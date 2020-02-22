@@ -1,0 +1,20 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container{}
+
+.callout-container{
+    height: 100vh;
+    background: url("../images/barrels-of-whiskey-in-storage-room.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.quotes-container{}
+
+.feautures-container{}
+
+.monthly-container{}

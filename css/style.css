@@ -6,11 +6,15 @@ body {
 
 .callout-container{
     height: 100vh;
-    background: url("../images/barrels-of-whiskey-in-storage-room.jpg") no-repeat bottom right fixed; 
+    background: url("../images/barrels-of-whiskey-in-storage-room2.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quotes-container{}
@@ -18,3 +22,42 @@ body {
 .feautures-container{}
 
 .monthly-container{}
+
+/* Block dividers */
+
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;    
+}
+
+.block-divider-orange{
+    background-color: #f39008;
+}
+
+.block-divider-small{
+    Width: 35px;
+}
+
+/* jumbotron */
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead{
+    margin: 25px 0;
+    color: #ada9a9;
+}
+
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}

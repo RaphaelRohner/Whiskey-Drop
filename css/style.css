@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container.wrapper{}
+
+.container-wrapper--red{
+    background-color:#f39008;
+    color: white;
+}
+
 .alert-container{
     width: 100%;
     padding-left: 0;
@@ -44,6 +51,18 @@ body {
 
 .feautures-container{}
 
+/* Headers */
+
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2{
+    margin-top: 0;
+}
+
 .monthly-container{}
 
 /* Block dividers */
@@ -51,7 +70,8 @@ body {
 .block-divider{
     width: 75px;
     height: 5px;
-    border: 0;    
+    border: 0; 
+    background-color: #444;   
 }
 
 .block-divider--orange{
@@ -60,6 +80,13 @@ body {
 
 .block-divider--small{
     Width: 35px;
+}
+
+/* Content-Container */
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
